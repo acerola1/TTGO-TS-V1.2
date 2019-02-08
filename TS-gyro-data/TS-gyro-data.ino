@@ -154,11 +154,11 @@ void setup() {
   tft.setTextSize(0);                                                      //Clear the Serial
   tft.fillScreen(ST7735_BLACK);
   tft.setCursor(5, 10);
-  tft.print("pitch ");
+  tft.print("fel   ");
   tft.setCursor(5, 30);
-  tft.print("roll  ");
+  tft.print("oldalra");
   tft.setCursor(5, 50);
-  tft.println("yaw   ");
+  tft.println("forgat");
   //Set the Serial cursor to position to position 0,0
   Serial.println(" Calibration Werte");
   Serial.print("Pitch:" + String(gyro_x_cal));                                               //Print text to screen
